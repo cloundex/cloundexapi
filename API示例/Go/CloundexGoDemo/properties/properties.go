@@ -1,6 +1,6 @@
 package properties
 
-var BaseURL string = "https://www.coinbig.com"
+var BaseURL string = "https://www.cloundex.com"
 var TickerUrl string = "/api/publics/v1/ticker"
 var AccountsUrl = "/api/publics/v1/userinfo"
 var DepthUrl = "/api/publics/v1/depth"

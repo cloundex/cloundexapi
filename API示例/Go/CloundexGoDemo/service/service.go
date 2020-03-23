@@ -3,8 +3,8 @@ package service
 import (
 	"fmt"
 	"encoding/json"
-	. "CoinbigGoDemo/bean"
-	."CoinbigGoDemo/properties"
+	. "CloundexGoDemo/bean"
+	."CloundexGoDemo/properties"
 )
 
 func GetTicker(symbol string,request RequestDeploy)  (ticker map[string]interface{} , err error) {

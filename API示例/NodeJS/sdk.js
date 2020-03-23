@@ -3,7 +3,7 @@ const md5 = require('crypto-js/md5')
 const axios = require('axios')
 // 创建一个axios对象避免污染axios原始对象
 const instance = axios.create({
-  baseURL: 'https://www.coinbig.com'
+  baseURL: 'https://www.cloundex.com'
 })
 
 /**
@@ -18,11 +18,11 @@ instance.interceptors.request.use(function (config) {
   return Promise.reject(err)
 })
 
-class CoinBig {
+class Cloundex {
   constructor(apiKey='', secret ='') {
     this.apiKey = apiKey
     this.secret = secret
-    this.url = 'https://www.coinbig.com'
+    this.url = 'https://www.cloundex.com'
   }
 
   /**
@@ -57,7 +57,7 @@ class CoinBig {
 
   /**
    * 获取交易信息
-   * @type {CoinBig}
+   * @type {cloundex}
    */
     trades_info(symbol, since = 60) {
      let params = { symbol, since, apikey: this.apiKey ,time: new Date().getTime()}
@@ -67,7 +67,7 @@ class CoinBig {
 
    /**
     * 获取所有订单信息
-    * @type {CoinBig}
+    * @type {cloundex}
     */
     orders_info(symbol, type = '1,2', size = 50 ) {
       let params = { symbol, type, size, apikey: this.apiKey, time: new Date().getTime()}
@@ -77,7 +77,7 @@ class CoinBig {
 
     /**
     * 撤销订单
-    * @type {CoinBig}
+    * @type {cloundex}
     */
     cancel_order(order_id) {
      let params = { order_id, apikey: this.apiKey, time: new Date().getTime()}
@@ -88,7 +88,7 @@ class CoinBig {
 
     /**
     * 获取用户资产(币种)
-    * @type {CoinBig}
+    * @type {cloundex}
     */
     userinfo_by_symbol(symbol, shortName = 'btc') {
      let params = { symbol, shortName, apikey: this.apiKey, time: new Date().getTime()}
@@ -98,7 +98,7 @@ class CoinBig {
 
     /**
     *  获取所有的币对符号
-    * @type {CoinBig}
+    * @type {cloundex}
     */
     symbols() {
       return instance.get('/api/publics/v1/symbols').then(res => res.data)
@@ -106,7 +106,7 @@ class CoinBig {
 
     /**
     *  下单交易(单个挂单)
-    * @type {CoinBig}
+    * @type {cloundex}
     */
     trade(symbol, type, price, amount) {
       let params = { symbol, type, price, amount, apikey: this.apiKey, time: new Date().getTime()}
@@ -117,7 +117,7 @@ class CoinBig {
 
     /**
     *  获取深度图
-    * @type {CoinBig}
+    * @type {cloundex}
     */
     depth(symbol, size = 100) {
       let params = { symbol, size }
@@ -128,4 +128,4 @@ class CoinBig {
 
 }
 
-module.exports = CoinBig
+module.exports = Cloundex

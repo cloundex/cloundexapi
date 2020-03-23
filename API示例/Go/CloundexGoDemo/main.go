@@ -1,8 +1,8 @@
 package main
 
 import (
-	"CoinbigGoDemo/bean"
-	"CoinbigGoDemo/service"
+	"CloundexGoDemo/bean"
+	"CloundexGoDemo/service"
 	"fmt"
 )
 

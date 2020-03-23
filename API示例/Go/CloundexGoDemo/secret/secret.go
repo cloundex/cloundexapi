@@ -20,7 +20,7 @@ func ComputeHmac256(strMessage string, strSecret string) string {
 	return hex.EncodeToString(h.Sum(nil))
 }
 
-func CoinbigMD5(params map[string]interface{},secretKey string) string  {
+func CloundexMD5(params map[string]interface{},secretKey string) string  {
 	directionMap := map[string]string{}
 	keys := []string{}
 	for k,v := range params{

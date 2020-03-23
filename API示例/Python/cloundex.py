@@ -19,9 +19,9 @@ class StatusErrorCode(Enum):
     
 
 
-class CoinBig():
+class Cloundex():
     def __init__(self):
-        self.base_url = 'https://www.coinbig.com/api/publics/v1'
+        self.base_url = 'https://www.cloundex.com/api/publics/v1'
         self.time = 3
         self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
         self.timeout = 10

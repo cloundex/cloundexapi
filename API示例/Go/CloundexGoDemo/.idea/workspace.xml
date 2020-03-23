@@ -78,7 +78,7 @@
         </entry>
       </file>
       <file leaf-file-name="bean.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../coinbig/bean/bean.go">
+        <entry file="file://$PROJECT_DIR$/../cloundex/bean/bean.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
@@ -119,7 +119,7 @@
       <find>request.</find>
     </findStrings>
     <replaceStrings>
-      <replace>coinbig</replace>
+      <replace>cloundex</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -166,32 +166,32 @@
         <subPane>
           <expand>
             <path>
-              <item name="CoinbigGoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoinbigGoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="CloundexGoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloundexGoDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CoinbigGoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoinbigGoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="CloundexGoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloundexGoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CoinbigGoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoinbigGoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="CloundexGoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloundexGoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CoinbigGoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoinbigGoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="CloundexGoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloundexGoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="secret" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CoinbigGoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoinbigGoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="CloundexGoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloundexGoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CoinbigGoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoinbigGoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="CloundexGoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloundexGoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -223,7 +223,7 @@
   </component>
   <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="Windows" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="CoinbigGoDemo" />
+      <module name="CloundexGoDemo" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
@@ -231,7 +231,7 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="CoinbigGoDemo" />
+      <module name="CloundexGoDemo" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
@@ -653,7 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../coinbig/bean/bean.go">
+    <entry file="file://$PROJECT_DIR$/../cloundex/bean/bean.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />

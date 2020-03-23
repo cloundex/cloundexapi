@@ -5,13 +5,13 @@ import (
 	"net/http"
 	"io/ioutil"
 	"errors"
-	. "CoinbigGoDemo/bean"
-	. "CoinbigGoDemo/utils"
+	. "CloundexGoDemo/bean"
+	. "CloundexGoDemo/utils"
 	"net/url"
-	."CoinbigGoDemo/properties"
+	."CloundexGoDemo/properties"
 	"strings"
 	"time"
-	."CoinbigGoDemo/secret"
+	."CloundexGoDemo/secret"
 )
 
 func proxyRequest(req *http.Request)(resp *http.Response, err error) {
@@ -66,7 +66,7 @@ func ApiCall(url string,params map[string]interface{},request RequestDeploy) (ma
 	if request.NeedSecret {
 		params["apikey"] = request.AccessKey
 		params["time"] = time.Now().UnixNano()/1000000
-		params["sign"] = CoinbigMD5(params,request.SecretKey)
+		params["sign"] = CloundexMD5(params,request.SecretKey)
 	}
 
 	requestUrl = fmt.Sprintf("%s%s",BaseURL,url)

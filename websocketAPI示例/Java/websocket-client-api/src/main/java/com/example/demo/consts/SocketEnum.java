@@ -11,7 +11,7 @@ public enum SocketEnum {
 	/**
 	 * 连接websocket的服务器地址
 	 */
-	WEBSOCKET_SERVER_PATH("wss://ws.coinbig.com/ws");
+	WEBSOCKET_SERVER_PATH("wss://ws.cloundex.com");
     @Getter
     private String value;
     
